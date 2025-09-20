@@ -116,4 +116,146 @@ ul li span{
 ul li span:hover{
     background: rgb(229, 166, 166);
     border-radius: 20px;
+
+}
+
+
+
+/* Media Queries for Responsive Design */
+
+/* Tablet and small desktop */
+@media (max-width: 768px) {
+    .todo-app {
+        margin: 50px auto 20px;
+        padding: 30px 20px 50px;
+    }
+    
+    .row {
+        padding-left: 15px;
+    }
+    
+    button {
+        padding: 14px 35px;
+        font-size: 15px;
+    }
+    
+    ul li {
+        font-size: 16px;
+        padding: 10px 6px 10px 45px;
+    }
+    
+    ul li span {
+        width: 35px;
+        height: 35px;
+        font-size: 24px;
+        line-height: 35px;
+        top: 7px;
+    }
+    
+    .todo-app h2 img {
+        width: 35px;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+    .container {
+        padding: 5px;
+    }
+    
+    .todo-app {
+        margin: 20px auto 10px;
+        padding: 20px 15px 40px;
+        border-radius: 12px;
+    }
+    
+    .todo-app h2 {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .todo-app h2 img {
+        width: 30px;
+        margin-left: 10px;
+    }
+    
+    .row {
+        padding-left: 12px;
+        border-radius: 25px;
+    }
+    
+    input {
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+    button {
+        padding: 12px 25px;
+        font-size: 14px;
+        border-radius: 25px;
+    }
+    
+    ul li {
+        font-size: 15px;
+        padding: 8px 5px 8px 40px;
+    }
+    
+    ul li::before {
+        height: 24px;
+        width: 24px;
+        top: 10px;
+        left: 6px;
+    }
+    
+    ul li span {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        line-height: 30px;
+        top: 6px;
+    }
+    
+    ul li span:hover {
+        border-radius: 15px;
+    }
+}
+
+/* Small mobile phones */
+@media (max-width: 320px) {
+    .todo-app {
+        padding: 15px 10px 30px;
+    }
+    
+    .todo-app h2 {
+        font-size: 18px;
+    }
+    
+    .row {
+        padding-left: 10px;
+    }
+    
+    button {
+        padding: 10px 20px;
+        font-size: 13px;
+    }
+    
+    ul li {
+        font-size: 14px;
+        padding: 6px 4px 6px 35px;
+    }
+    
+    ul li::before {
+        height: 22px;
+        width: 22px;
+        top: 8px;
+        left: 5px;
+    }
+    
+    ul li span {
+        width: 28px;
+        height: 28px;
+        font-size: 18px;
+        line-height: 28px;
+        top: 5px;
+    }
 }
